@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*, html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Styling For Skip To Content*/
+.skip-link {
+  position: absolute;
+  top: -45px;
+  left: 0;
+  padding: 8px;
+  background-color: #bf1722;
+  color: white;
+  z-index: 1000;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+a{
+  display: inline-block;
+  min-width: 44px;
+  min-height: 44px;
+}
+
+/*Styling For Header*/
+.header{
+  transition: min-height 0.3s;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header__menu {
+  font-size: 32px;
+  margin: 10px auto;
+  display: block;
+  min-width: 44px;
+  min-height: 44px;
+  text-decoration: none;
+  background-color: #1C6758;
+  color: #D6CDA4;
+  border-radius: 8px;
+  border: none;
+
+  
+}
+
+/*Styling For Navigation Bar*/
+.nav-bar .menu-bar .list-menu li a{
+  text-decoration: none;
+  color: #1C6758;
+  font-size: 20px;
+}
+
+.nav-bar .menu-bar .list-menu .nav-item a{
+  display: inline-block;
+  min-width: 44px;
+  min-height: 44px;
+}
+
+.nav-bar .menu-bar .list-menu li a:hover{
+  text-decoration: underline;
+}
+
+.nav-bar .nav-logo h1{
+  font-weight: 600;
+}
+
+/*Styling For Jumbotron*/
+.jumbotron{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  max-height: 450px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+  /*background-image: url("../public/hero-image_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+.jumbotron picture{
+  width: 100%;
+  z-index: -2;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron picture source, .jumbotron picture img{
+  width: 100%;
+}
+
+.jumbotron .overlay{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1C6758;
+  opacity: 80%;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.jumbotron .overlay .hero-inner .hero-title{
+  color: #D6CDA4;
+}
+
+.jumbotron .overlay .hero-inner .hero-desc{
+  color: #D6CDA4;
+} 
+
+.jumbotron .overlay {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*max-width: 60%;
+  max-height: 50%;*/
+  margin: 0 auto;
+  opacity: 80%;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/*Styling For List Reastaurant*/
+main{
+  width: 100%;
+  margin: 20px auto;
+  min-height: 35vh;
+}
+
+.content {
+  width: 100%;
+  padding: 20px;
+}
+
+#restaurant .content .title{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#restaurant .content .desc{
+  text-align: center;
+  font-style: italic;
+  color: #999;
+}
+
+.content .list-restaurant .card-grid{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+}
+
+.content .list-restaurant{
+  margin-top: 40px;
+}
+
+/*
+card item restorant
+*/
+.card-item {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-item__content {
+  padding: 16px 32px 32px 32px;
+}
+
+.card-item__thumbnail {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-item_city {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #999;
+}
+
+.card-item_city .txt-rat{
+  color: red;
+}
+
+.card-item__title {
+  font-weight: 500;
+  margin-top: 16px;
+  transition: 0.3s opacity;
+}
+
+.card-item__title:hover {
+  opacity: 0.5;
+}
+
+.card-item__title a {
+  text-decoration: none;
+  color: inherit;
+  min-width: 44px;
+  min-height: 44px;
+}
+
+.card-item__description {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 1.5em;
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-item__btn_read{
+  padding: 7px;
+  border-radius: 8px;
+  background-color: #1C6758;
+  color: #D6CDA4;
+  border: 2px solid #1C6758;
+  min-width: 44px;
+  min-height: 44px;
+  margin-top: 20px;
+}
+
+.card-item__btn_read:hover{
+  background-color: transparent;
+  color: #1C6758;
+  cursor: pointer;
+}
+ .ratting{
+  color: #FFA500;
+ }
+
+
+
+ /*Styling For Footer*/
+ footer{
+  margin-top: 100px;
+  box-sizing: border-box;
+  background-color: #1C6758;
+ }
+ .container{
+	max-width: 1000px;
+	overflow: hidden;
+  margin: 0 auto;
+}
+.follow-us{
+	display: flex;
+	flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  
+}
+.follow-us .social-links{
+  width: 100%;
+  margin: 10px auto;
+}
+footer.ul{
+	list-style: none;
+}
+.footer-col{
+   width: 40%;
+   padding: 0 15px;
+   margin: 20px auto;
+   text-align: center;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+  text-align: center;
+}
+.footer-col h4::after{
+  content:"";
+  border-bottom: 5px solid #D6CDA4;
+  width: 52px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	min-height: 44px;
+	min-width: 44px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.footer .create-by{
+  width: 100%;
+  border-top: 1px solid grey;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer .create-by h6{
+  margin: 10px auto;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.footer .create-by .love{
+  color: red;
+}
+
+/* Style For Like Button*/
+.like {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #db0000;
+  
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  border-radius: 50%;
+  border: 0;
+  
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.like .liked{
+  color: white;
+}
+
+.nothing-restaurant{
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}

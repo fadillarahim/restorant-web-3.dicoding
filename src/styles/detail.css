@@ -1,0 +1,88 @@
+#restaurant-container{
+    margin-top: 50px;
+    line-height: 2;
+}
+
+.detail-page{
+    padding: 10px;
+}
+
+.resto-poster-info-bundle{
+    max-width: 90%;
+}
+.resto-detail-title{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.resto__poster{
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.resto__menu{
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.resto__menu h4{
+    text-align: center;
+}
+
+.resto__menu ul{
+    padding: 20px;
+}
+
+/*Style For resto Review*/
+.resto-review-title{
+    text-align: center;
+}
+
+.review-container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 8px;
+}
+
+.resto__info{
+    width: 100%;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.resto__info h3{
+    text-align: center;
+}
+
+.resto__overview{
+    margin-top: 20px;
+}
+
+.resto__overview h3{
+    text-align: center;
+}
+
+.reviewer-name{
+    font-weight: bold;
+}
+
+.reviewer-date{
+    font-style: italic;
+    color: gray;
+    font-size: small;
+}
+
+.resto-poster-info-bundle{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+
+/*For like button*/
+
+

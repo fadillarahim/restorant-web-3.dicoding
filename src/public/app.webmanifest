@@ -1,0 +1,35 @@
+{
+    "theme_color": "#1C6758",
+    "background_color": "#D6CDA4",
+    "display": "standalone",
+    "start_url": "./index.html",
+    "name": "List Recomended Restaurant Lite ",
+    "description": "Free list recomended restaurant for you",
+    "short_name": "Makan Yuxx",
+    "icons": [
+        {
+            "src": "/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icons/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icons/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}
